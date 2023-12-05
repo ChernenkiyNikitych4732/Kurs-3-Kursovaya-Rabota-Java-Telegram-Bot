@@ -24,7 +24,7 @@ public class NotificationsScheduler {
         this.bot = bot;
     }
 
-    @Scheduled(fixedDelay = 60_000L)
+    @Scheduled(fixedDelay = 50000L)
     public void scheduler() {
         logger.info("Schedule");
 
